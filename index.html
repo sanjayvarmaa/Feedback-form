@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <center>
+        <h1> PS5 Feedback Form</h1>
+    </center>
+    <div class="box">
+        <form action="form.html"> <label>Name: <input type="text"></label><br>
+            <label>Email: <input type="email"></label><br>
+            <label for="Performance">Performance:</label>
+            <select name="Performance">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select><br>
+            <label for="Design">Design:</label>
+            <select name="Design">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select><br>
+            <label for="Features">Features:</label>
+            <select name="Features">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select><br>
+            <label class="box2">Comments: <input type="text"></label>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+    <style>
+        body{
+            background-color: grey;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .box {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        label {
+           display: block;
+           margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+           width: 100%;
+           padding: 5px;
+           margin-bottom: 10px;
+           border: 1px solid #ccc;
+           border-radius: 5px;
+        }
+
+        h1{
+          text-align: center;
+          color: maroon;
+        }
+        textarea {
+          resize: vertical;
+        }
+
+        input[type="submit"] {
+           background-color: black;
+           color: white;
+           border: none;
+           padding: 10px 20px;
+           border-radius: 5px;
+           cursor: pointer;
+        }
+
+        button{
+          margin-left: 150px;
+          height: 20px;
+          width: 100px;
+          background-color:gray;
+          color:beige;
+        }
+
+    
+  
+
+    </style>
+</body>
+</html>
